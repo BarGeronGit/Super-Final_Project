@@ -1,0 +1,16 @@
+.div{
+    float: right;
+}
+.ui.input>input {
+    text-align: right
+}
+
+.MainDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.MainDiv > div{
+    margin: 0 10px;
+}

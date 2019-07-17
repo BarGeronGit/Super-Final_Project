@@ -1,0 +1,17 @@
+
+
+.divPickFile{
+    align-items: center;
+    margin: 50px 0px 50px 0px
+}
+
+.greenButtonPickFile{
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.redButtonPickFile{
+    float: right;
+    margin-right: 25%;
+}

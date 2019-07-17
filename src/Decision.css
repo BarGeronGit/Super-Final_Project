@@ -1,0 +1,66 @@
+.containerDivDecision{
+    max-width: 400px;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column;
+    align-items: center;
+}
+
+#ProductDataDivs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.GroupOfDecisions{
+    min-width: 350px;
+    max-width: 400px;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    border: 2px solid rgba(163, 163, 167, 0.699);
+    border-radius: 8px;
+}
+
+.GroupOfDecisionsProd12{
+    min-width: 350px;
+    max-width: 400px;
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid rgba(163, 163, 167, 0.699);
+    min-height: 530px;    
+    border-radius: 8px;
+}
+
+h3 :first-child{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.DataDiv{
+    margin: 6px;
+    padding:5px
+}
+
+.MidDivDecision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.CheckboxDiv{
+    display: flex;
+    padding-top: 6px;
+    justify-content: center;
+}
+
+.ButtonsDivDecision{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

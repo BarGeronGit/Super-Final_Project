@@ -1,0 +1,21 @@
+.ui.icon.input>input{
+    text-align: right;
+}
+
+i.icon.chevron.right {
+    content: "\f054";
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+i.icon.chevron.left {
+    content: "\f053";
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

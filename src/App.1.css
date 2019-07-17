@@ -1,0 +1,382 @@
+.App {
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+body{
+  background-color: #f4f9f4  !important;
+  width: 100%;
+  height: 100%;
+
+  background-image:
+      url(),
+      linear-gradient(to right,#f4f9f4, #90ee90);
+  
+  background-position: bottom right,
+      left,
+      right;
+}
+.ChartTable{
+  background-image: url(),
+  url(),
+  linear-gradient(to right,#f4f9f4, #90ee90);
+
+}
+Menu{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#mainWelcome{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+#DecisRouteDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+#container{
+  width: 200px;
+margin: 0 auto;
+}
+#FirmName{
+  font-size: 20px;
+ }
+ #GameName{
+  font-size: 15px;
+ }
+#MainTeam{
+  border: 2px solid black;
+  height: 200px;
+  width: 150px;
+  margin: 0 auto;
+margin-top: 2px;
+text-align:center;
+align-content: center;
+}
+#MainGame{
+  border: 2px solid black;
+  height: 260px;
+  width: 330px;
+  margin: 0 auto;
+margin-top: 2px;
+text-align:center;
+align-content: center;
+}
+#ButtonsDiv{
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+#FilesMainDiv{
+  border: 2px solid black;
+  height: 257px;
+  width: 700px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.OpenButtons{
+  float: left;
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+#TeamsApp{
+  margin-top: 50px;
+}
+#NavH{
+  margin-top: 3px;
+  font-size: 50px;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#GridID{
+  width: 75%;
+}
+#SpareStudents{
+  width: 20%;
+  height: 400px;
+  border: 3px solid black;
+  float: left;
+  margin-left: 60px;
+  text-align: center;
+
+}
+#MainStep{
+margin: 0 auto;
+text-align: center;
+margin-top: 40px;
+}
+
+#mainHeader{
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  font-size: 60px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#mainPass{
+  margin-top: 10px;
+}
+#mainCheck{
+  float: left;
+}
+#mainLink{
+float: right;
+margin-right: 10px;
+}
+#loginBtn{
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+#mainMessage{
+font-size: 20px;
+}
+Menu{
+  align-content: center;
+}
+.menuItem{
+  width: 600px;
+}
+.AppTest {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.todos {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.done {
+  background: grey;
+  margin-right: 200px;
+  width: 100px;
+  margin: 10px;
+}
+
+#greenButton{
+  float: left;
+  width: 33%;
+  margin-bottom: 20px;
+}
+#MainPick{
+  text-align: center;
+}
+.GameDetailsInfo{
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+}
+#GameGoIn{
+  align-self: center;
+}f
+#YellowLine{
+  color: rgb(255, 208, 0);
+  font-size: 30px;
+}
+#RedLine{
+  color:red;
+  font-size: 30px;
+
+}
+#WholePage{
+  width: 100%;
+  height: 100%;
+}
+#TableDiv{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+#TeamsTable{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+ #WholePage {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
+ #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+
+
+ #ProdOne{
+   height: 350px;
+   width: 380px;
+   margin-top: 20px;
+   margin-right: 50px;
+   float: right;
+ }
+ #ProdTwo{
+  height: 350px;;
+  width: 380px;
+  margin-top: 20px;
+  margin-right: 50px;
+  float: right;
+ }
+ #Factory{
+  height: 350px;;;
+  width: 380px;
+  margin-top: 20px;
+  margin-right: 120px;
+  float: right;
+ }
+ #FactoryTwo{
+  width: 380px;
+  float: left;
+  margin-left: 160px;
+
+ }
+ #ProductDataFunding{
+  height: 350px;;
+  width: 380px;
+  margin-top: 100px;
+  float: right;
+  margin-right: 50px;
+ }
+ #ProductDataFundingLeft{
+  height: 350px;;
+  width: 380px;
+  margin-top: 100px;
+  float: right;
+  margin-right: 50px;
+
+ }
+ #ProductDataStockMarket{
+  height: 200px;
+  float: right;
+  margin-right: 390px;
+ }
+ .LittleHeader{
+   text-align: center;
+ }
+
+ #InputBox{
+   margin-right: 55px;
+   width: 100px;
+ }
+#secText{
+  margin-right: 20px;
+}
+#DataDiv{
+  margin-top: 15px;
+}
+#InputBoxicon{
+  margin-right: 30px;
+  width: 100px;
+}
+.goLeft1{
+margin-right: 20px;
+}
+
+#FormDiv{
+  margin: 0 auto;
+  width: 90%;
+}
+#FormLabel{
+margin-right: 130px;
+}
+#FormLabel2{
+  margin-right: 450px;
+  }
+
+  #RightLabelDiv{
+    width: 200px;
+    border:3px solid black;
+    float: right;
+    height: 500px;
+
+  }
+  #RightInputDiv{
+    margin-right: 40px;
+    float: right;
+    border:3px solid black;
+    height: 500px;
+  }
+  .labelTesting{
+    width: 150px;
+    margin-right: 5px;
+    float: right;
+  }
+  #InputTesting{
+    float: right;
+  }
+#RadioCheck{
+  width: 250px;
+  margin-right: 500px;
+}
+#DecisionButton{
+  float: left;
+
+}
+#NotificationBox{
+  float: left;
+  margin-right: 200px;
+}
+#ProductDataDivs{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+#MainNavPage{
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 130px;
+}
+
+.GamesTable{
+width:50px;
+height: 50px;
+}
+.sidenav---sidenav---_2tBP {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1006;
+  min-width: 64px;
+  background: green !important;
+  transition: min-width 0.15s;
+}
+#powOff{
+  margin-top: 100px;
+  padding-top: 230px;
+  top:200px;
+}
+
+#DecisionButton{
+margin-left: 700px;
+margin-top:20px; 
+}
+
+#BackDesc{
+  margin-left: 100px;
+}
+#NextDesc{
+  margin-right: 100px;
+}
+#GroupButtonDesc{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+#teamDropdown{
+ padding-top: 20px;
+}

@@ -1,0 +1,10 @@
+
+.divDropdown{
+  position: relative;
+  min-width: 180px;
+}
+
+.dropdown{
+    direction: rtl;
+    text-align: right;
+  }

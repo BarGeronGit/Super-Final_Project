@@ -1,0 +1,147 @@
+
+.divmiddle{
+    border-radius: .4329rem;
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:2%;
+    margin-bottom: 2%;
+    min-width: 320px;
+    background-color: #e1f5e1;
+    box-shadow: 12px 12px 12px   #e2e2e2;
+
+}
+
+.divmiddleHeader{
+    border-radius: .4329rem;
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.itemHeadline{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width:100%;
+    margin:15px;
+    display:flex;
+    justify-content: center
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.containerPass {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.item{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display:flex;
+    justify-content: center
+}
+
+@media(max-width: 1030px) {
+    .itemNameMile{
+        flex-basis: 20%;
+        align-self: center;
+        margin:3%;
+    }
+}
+
+@media(max-width: 1215px) {
+    .containerAdmin{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+justify-content: space-around;
+    }}
+
+@media(max-width: 1215px) {
+ .itemNameMileAdmin{
+align-self: center;
+flex-direction: column;
+ }}
+
+.itemNameMile{
+    flex-basis: 20%;
+    align-self: center;
+}
+
+.itemNameMilePass{
+    flex-basis: 20%;
+    align-self: center;
+    flex-direction: column;
+    padding-top:2%
+}
+
+.greenButton{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 25px;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.itemButton{
+    margin: 0 auto;
+}
+
+.textItem{
+    font-size: larger;
+    font-weight: bolder;
+    width:100px;
+    align-self: center
+}
+
+.itemNameMileAdmin{
+    align-self: center;
+    flex-direction: row;
+    padding-top:2%
+}
+
+.containerAdmin {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemNameWrong {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.passWordStyle{
+    margin-left: 2%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1300px){
+    .passWordStyle{
+        width: 100%;
+        justify-content: center
+    }
+}

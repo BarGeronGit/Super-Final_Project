@@ -1,0 +1,85 @@
+.container-drag{
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding-top: 8%;
+}
+
+.StudentToAssign{
+    background-color:#eeeeee;
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 170px;
+    min-height: 210px;
+    padding-top: 5%;
+}
+
+.teamForSudent{
+    border: 2px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 170px;
+    padding-top: 5%;
+    min-height: 210px;
+
+}
+
+.dragAbleStudent{
+   width: 130px;
+    display:block;
+    height: 27px;
+    background-color: #10be5f;
+    color:white;
+    margin: 5px;
+    line-height: 1.7em;
+    border-radius:25px;
+}
+
+.StudentToAssign > .dragAbleStudent{
+    width: 130px;
+    display:block;
+    height: 27px;
+    background-color: red;
+    color:white;
+    margin: 5px;
+    line-height: 1.7em;
+    border-radius:25px;
+}
+
+/* 
+#greenButtonTeams{
+    float: left;
+    margin-left: 15%;
+}
+
+#redButtonTeams{
+        background-color: #db2828;
+        color: #fff;
+        text-shadow: none;
+        background-image: none;
+        float: right;
+        margin-right: 15%;
+        border-radius: .28571429rem;
+} */
+
+#orangeButtonsTeams{
+    background-color: #f8ac07;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    border-radius: .28571429rem;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: 14.1429px 27px;
+}
+
+#ButtonsDiv{
+      padding-bottom: 7%;
+      display: flex;
+      justify-content: space-evenly;
+}

@@ -1,0 +1,74 @@
+.imgSteps{
+    height: 100px;
+    width: 650px;
+    margin: 0 auto;
+    display: block;
+}
+
+.h2{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.midDiv{
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+.tableDiv{
+    margin: 0 auto
+}
+
+.nameTd{
+   font-size: 19px;
+   font-weight: bold;
+   text-align:right
+}
+
+.midEmptyRow{
+    height:20px;
+}
+
+.midEmptyTd{
+    width:250px
+}
+
+
+.buttonsDiv{
+    float: right;
+    width:33%;
+    align-items: center
+}
+
+.buttonsDivRight{
+    float: right;
+    width:34%
+}
+.elementDiv{
+    padding-bottom: 5%
+}
+
+.greenButton{
+   
+}
+
+.redButton{
+    float: right;
+    margin-right: 5%;
+}
+
+#backGround{
+    background-color: #f4f9f4
+}
+
+.containerButton{
+display: flex;
+justify-content: flex-end;
+margin-left: 10%;
+}
+
+.BottomButtonsDiv{
+    margin-left: 5%;
+}

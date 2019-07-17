@@ -1,0 +1,32 @@
+
+
+.divPickFile{
+    align-items: center;
+    margin: 50px 0px 50px 0px
+}
+
+/* .greenButtonPickFile{
+    float: left;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.redButtonPickFile{
+    float: right;
+    margin-right: 25%;
+} */
+
+.contanerButtonsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.onlyRed{
+    justify-content: flex-start;
+    display: flex;
+}
+
+.emptyDiv{
+    width:122px;
+}

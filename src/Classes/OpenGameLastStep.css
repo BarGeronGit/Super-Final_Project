@@ -1,0 +1,76 @@
+.ExcelTable2007 {
+	border: 1px solid #B0CBEF;
+	border-width: 2px 0px 2px 2px;
+    font-family: Calibri;
+    border-collapse: collapse;
+    direction: ltr;
+    margin-right: 10%;
+    text-align: left;
+    font-weight: 400;
+    font-size: inherit;
+}
+
+.ExcelTable2007 TH {
+	background-color: #f5ebc7;
+    font-weight: normal;
+    font-size: 14px;
+    border: 2px solid black;
+    border-width: 0px 1px 1px 0px;
+    height: 17px;
+	font-size: larger;
+	text-align: center;
+}
+
+.ExcelTable2007 TD {
+	background-color: white;
+    padding: 0px 4px 0px 2px;
+    border: 3px solid #9c9999;
+    border-width: 0px 1px 1px 0px;
+}
+
+#TableAlign{
+    direction: "ltr" !important;
+    margin-left: 25%;
+}
+
+.ExcelTable2007 TD B {
+	border: 0px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.ExcelTable2007 TD.heading {
+	background-color: #E4ECF7;
+	text-align: center;
+	border: 1px solid #9EB6CE;
+	border-width: 0px 1px 1px 0px;
+}
+
+.ExcelTable2007 TH.heading {
+	background-image: url({src\Assets\excel-2007-header-bg.gif});
+	background-repeat: none;
+}
+
+.routeButtonsDivLastPage{
+justify-content: center;
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+#ButtonsDivLastPage{
+	padding-bottom: 2%;
+    display: flex;
+	justify-content: space-evenly;
+	margin-right: 8%;
+	align-items: center;
+	margin-top: 3%;
+
+}
+
+#orangeButtonsTeams{
+	background-color: orange;
+	width: 105.64px;
+	height: 46.28px;
+
+}

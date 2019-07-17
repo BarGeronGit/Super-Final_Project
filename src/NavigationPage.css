@@ -1,0 +1,43 @@
+.ContainerDivNevigation{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MainGameDivNavigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 25px;
+    background-color: #e1f5e1;
+    box-shadow: 12px 12px 12px  #e2e2e2;
+}
+
+@media (max-width: 1200px){
+    .MainGameDivNavigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-width: 300px;
+        min-height: 300px;
+        margin: 25px;
+        background-color: white;
+        box-shadow: 12px 12px 12px #e2e2e2;
+    }
+}
+.GameDetailsInfo{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.MiddleDivInNavigation{
+    font-size: large;
+}
+
+.UncheckedDecisions{
+    font-size: x-large;
+    font-weight: bold;
+    color:red;
+}
