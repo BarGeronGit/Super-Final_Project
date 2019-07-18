@@ -1,73 +1,55 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-import './App.1.css';
-
-const styles = {
-  root: {
-    width: '100%',
-    overflowX: 'auto',
-  },
-  table: {
-    minWidth: 700,
-  },
-};
-
-let id = 0;
-function createData(name, calories, fat, carbs, protein) {
-  id += 1;
-  return { id, name, calories, fat, carbs, protein };
-}
+import React, { PureComponent } from 'react';
+import {
+  ResponsiveContainer, ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+} from 'recharts';
 
 const data = [
-  createData('1', 159, 6.0, 24, 4.0),
-  createData('2', 237, 9.0, 37, 4.3),
-  createData('3', 262, 16.0, 24, 6.0),
-  createData('4', 305, 3.7, 67, 4.3),
-  createData('5', 356, 16.0, 49, 3.9),
+  {
+    name: 'Page A', uv: 590, pv: 800, amt: 1400,
+  },
+  {
+    name: 'Page B', uv: 868, pv: 967, amt: 1506,
+  },
+  {
+    name: 'Page C', uv: 1397, pv: 1098, amt: 989,
+  },
+  {
+    name: 'Page D', uv: 1480, pv: 1200, amt: 1228,
+  },
+  {
+    name: 'Page E', uv: 1520, pv: 1108, amt: 1100,
+  },
+  {
+    name: 'Page F', uv: 1400, pv: 680, amt: 1700,
+  },
 ];
 
-function SimpleTable(props) {
-  const { classes } = props;
+export default class Example extends PureComponent {
+  static jsfiddleUrl = '//jsfiddle.net/alidingling/9wnuL90w/';
 
-  return (
-    <Paper className={classes.root}>
-      <Table id="ChartTable" className={classes.table}>
-        <TableHead>
-          <TableRow>
-            <TableCell>מספר פירמה</TableCell>
-            <TableCell align="right">מכירות</TableCell>
-            <TableCell align="right">כמויות</TableCell>
-            <TableCell align="right">מצב מניה</TableCell>
-            <TableCell align="right">רווחים</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {data.map(n => (
-            <TableRow key={n.id}>
-              <TableCell component="th" scope="row">
-                {n.name}
-              </TableCell>
-              <TableCell align="right">{n.calories}</TableCell>
-              <TableCell align="right">{n.fat}</TableCell>
-              <TableCell align="right">{n.carbs}</TableCell>
-              <TableCell align="right">{n.protein}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </Paper>
-  );
+  render() {
+    return (
+      <div style={{ width: '100%', height: 300 }}>
+        <ResponsiveContainer>
+          <ComposedChart
+            width={500}
+            height={400}
+            data={data}
+            margin={{
+              top: 20, right: 20, bottom: 20, left: 20,
+            }}
+          >
+            <CartesianGrid stroke="#f5f5f5" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />
+            <Bar dataKey="pv" barSize={20} fill="#413ea0" />
+            <Line type="monotone" dataKey="uv" stroke="#ff7300" />
+          </ComposedChart>
+        </ResponsiveContainer>
+      </div>
+    );
+  }
 }
-
-SimpleTable.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(SimpleTable);

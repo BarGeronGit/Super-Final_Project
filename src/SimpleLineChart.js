@@ -32,9 +32,9 @@ function SimpleLineChart() {
 
         <Legend />
         <Line type="monotone" dataKey="מכירות" stroke="#8884d8" />
-        <Line type="monotone" dataKey="הזמנות" stroke="#8884d8" activeDot={{ r: 8 }} />
-        <Line type="monotone" dataKey="מניה" stroke="#8884d8" activeDot={{ r: 8 }} />
-        <Line type="monotone" dataKey="רווחים" stroke="#82ca9d" activeDot={{ r: 8 }} />
+        <Line type="monotone" dataKey="הזמנות" stroke="#ffabae" activeDot={{ r: 8 }} />
+        <Line type="monotone" dataKey="מניה" stroke="#a14a67" activeDot={{ r: 8 }} />
+        <Line type="monotone" dataKey="רווחים" stroke="#1b9403" activeDot={{ r: 8 }} />
 
       </LineChart>
     </ResponsiveContainer>

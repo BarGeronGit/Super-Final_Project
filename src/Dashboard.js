@@ -7,6 +7,10 @@ import SimpleLineChart from './SimpleLineChart';
 import SimpleTable from './SimpleTable';
 import MainHeader from './Header';
 import { Dropdown } from 'semantic-ui-react'
+import PieChart from './PieChart'
+import PieLabel from './PieLabel'
+import AreaChart from './AreaChart'
+
 import './App.1.css';
 
 const drawerWidth = 240;
@@ -92,7 +96,7 @@ const options = [
     { key: 1, text: 'MBA1', value: 1 },
     { key: 2, text: 'BA Evening', value: 2 },
     { key: 3, text: 'MBA2', value: 3 },
-  ]
+]
 
 class Dashboard extends React.Component {
     state = {
@@ -113,7 +117,7 @@ class Dashboard extends React.Component {
         return (
             <div>
                 <MainHeader text={"גרפים וטבלאות"} />
-                    <Dropdown id="teamDropdown" text='  בחר קורס' options={options} simple item />
+                <Dropdown id="teamDropdown" text='  בחר קורס' options={options} simple item />
                 <div className={classes.root}>
                     <CssBaseline />
                     <main className={classes.content}>
@@ -123,8 +127,31 @@ class Dashboard extends React.Component {
           </Typography>
                         <Typography component="div" className={classes.chartContainer}>
                             <SimpleLineChart />
-
+                            <br />
+                            <br />
+                            <div class="parent">
+                                <div class="column">
+                                    <Typography variant="h4" gutterBottom component="h2">
+                                        קבוצות
+          </Typography>
+                                    <PieChart />
+                                </div>
+                                <div id="Column123" class="column">
+                                    <Typography variant="h4" gutterBottom component="h2">
+                                        קבוצות
+          </Typography>
+                                    <PieLabel />
+                                </div>
+                                <div class="column">
+                                    <Typography variant="h4" gutterBottom component="h2">
+                                        קבוצות
+          </Typography>
+                                    <AreaChart />
+                                </div>
+                            </div>
                         </Typography>
+                        <br />
+                        <br />
                         <Typography variant="h4" gutterBottom component="h2">
                             מצב השוק
           </Typography>
